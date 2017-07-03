@@ -2,6 +2,15 @@
 
 This port is based on version 2.4.8 (Jun 12, 2013) of the [YUI compressor](https://github.com/yui/yuicompressor).
 
+> _Fixes bug in css minifier. tubalmartin/cssmin class strips white spaces from data:image/svg. Image is not readable in any browser. IE throws error._
+```
+.custom-select {
+  ...
+  background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center !important;
+  ...
+}
+```
+
 **Table of Contents**
 
 1.  [How to use](#howtouse)
