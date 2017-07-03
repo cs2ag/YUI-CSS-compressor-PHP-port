@@ -1,19 +1,16 @@
 {
-    "name": "tubalmartin/cssmin",
+    "name": "cs2/cssmin",
+    "replaces": "tubalmartin/cssmin",
     "description": "A PHP port of the YUI CSS compressor",
     "keywords": ["yui", "compressor", "css", "compress", "minify"],
-    "homepage": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port",
+    "homepage": "https://github.com/cs2ag/YUI-CSS-compressor-PHP-port.git",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Túbal Martín",
-            "homepage": "http://tubalmartin.me/"
+            "name": "CS2",
+            "homepage": "http://www.cs2.ch/"
         }
     ],
-    "support": {
-        "issues": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port/issues",
-        "source": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port"
-    },
     "autoload": {
         "classmap": ["cssmin.php"]
     },
